@@ -1,0 +1,212 @@
+{
+	"info": {
+		"_postman_id": "27bd0590-221e-4669-b857-77836b479ebb",
+		"name": "Cars CSV Upload Code Challenge",
+		"description": "Project for upload and retrieve cars by Provider Name",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "upload Volvo Cars",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "multipart/form-data",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/D:/dev/nodeJS/test/csvupload-code-challenge-master/csv/Chevy.csv"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/csv/upload/volvo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"csv",
+						"upload",
+						"volvo"
+					]
+				},
+				"description": "POST Request for upload and process a car csv file."
+			},
+			"response": []
+		},
+		{
+			"name": "Get Cars Info From Chevy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/csv/chevy",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"csv",
+						"chevy"
+					]
+				},
+				"description": "Get the car information based in the provider Name"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Cars Info From Gmc",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/csv/gmc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"csv",
+						"gmc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Cars Info  From Volvo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/csv/volvo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"csv",
+						"volvo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "upload Chevy Cars",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "multipart/form-data",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/ver/Book1.csv"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/csv/upload/chevy",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"csv",
+						"upload",
+						"chevy"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "upload Gmc Cars",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "multipart/form-data",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/D:/dev/nodeJS/interview_challenge/csvupload-code-challenge/csv/Gmc.csv"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/csv/upload/gmc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"csv",
+						"upload",
+						"gmc"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "041f7ce1-8a4a-4d5f-9e91-4c9c8aa0389d",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "7a282f33-75c6-48ad-b2f6-59507520d8e4",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
