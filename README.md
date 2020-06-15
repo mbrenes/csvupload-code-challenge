@@ -37,8 +37,12 @@ npm test
 You can see the postman collection inside the postman_collection folder 
 in the current project
 ```
-
-
+## Database information
+```bash
+This application is using MongoDb Memory Service Global so the db is deleted when the application is sttoped.  
+Url to connect to the db, could use MongoDB Compass to see the collections using GUI app
+Database URL: mongodb://127.0.0.1:46139/marlon
+```
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
@@ -47,4 +51,4 @@ Please make sure to update the tests as appropriate.
 
 ## License
 
-[Marlon](https://github.com/mbrenes)
+[Marlon Brenes Rights Reserved](https://github.com/mbrenes)

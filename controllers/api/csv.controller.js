@@ -65,8 +65,8 @@ module.exports = {
 
 
 
-          console.log("Final Data", data);
-          return responseHelper.success(res, {}, "File uploaded and successfully processed");
+          console.log("Last Data", data);
+          return responseHelper.success(res, {}, "Cars CSV File has been uploaded and successfully processed");
         })
         .catch((error) => responseHelper.badRequest(res, error.message, error.values));
     }
