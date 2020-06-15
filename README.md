@@ -31,6 +31,21 @@ Run the following commands in your root directory.
 npm test
 ```
 
+## CSV Files
+There are different car providers file inside CSV folder.
+In this moment the cars providers supported are : gmc, chevy and volvo other 
+provider name will be throw an error. 
+
+so if you upload for example the GMC file you have ti hit the endpoint with the name of that 
+provider 
+http://localhost:3000/api/csv/upload/:providerName 
+
+Example in the case of gmc 
+http://localhost:3000/api/csv/upload/gmc then upload the gmc.csv file inside csv folder 
+
+Example in the case of chevy
+http://localhost:3000/api/csv/upload/chevy  then upload the chevy.csv file inside csv folder 
+
 ## Postman Collection
 
 ```bash
