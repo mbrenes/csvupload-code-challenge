@@ -71,4 +71,4 @@ Please make sure to update the tests as appropriate.
 
 ## License
 
-[Marlon Brenes Rights Reserved](https://github.com/mbrenes)
+[All Rights Reserved](https://github.com/mbrenes)
