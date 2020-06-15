@@ -53,7 +53,7 @@ http://localhost:3000/api/csv/upload/volvo  then upload the volvo.csv file insid
 
 You can see the postman collection inside the postman_collection folder 
 
-[POSTMAN] https://www.postman.com/collections/5999885eefff819b9d73
+[POSTMAN](https://www.postman.com/collections/5999885eefff819b9d73)
 
 Note In the request of the upload you have to select the correct CVS file (see the CVS folder)
 
